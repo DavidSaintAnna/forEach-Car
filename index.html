@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Corrida de carros</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1 id="title">Race Cars</h1>
+        <div class="main-content">
+            <div class="direction">
+                <div class="columns">
+                    <img src="./assets/img/carro1.jpg" class="racers">
+                </div>
+                <div class="columns">
+                    <img src="./assets/img/carro2.jpg" class="racers">
+                </div>
+                <div class="columns">
+                    <img src="./assets/img/carro3.jpg" class="racers">
+                </div>
+            </div>
+            <section id="options_and_result">
+                <p id="text">Qual tipo de corrida você quer ?</p>
+                <button onclick="run(10)">Corrida rápida: 10 voltas</button>
+                <button onclick="run(70)">Grande Prêmio: 70 voltas</button>
+                <button onclick="run(160)">Enduro: 160 voltas</button>
+            </section>
+        </div>
+        <script type="text/javascript" src="script.js" defer></script>
+</body>
+
+</html>
